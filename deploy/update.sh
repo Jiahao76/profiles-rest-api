@@ -5,7 +5,7 @@ set -e  # Exit on any error
 PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 # Ensure distutils is installed (optional if already done in setup)
-sudo apt-get install -y python3-distutils
+apt-get install -y python3.12-venv
 
 # Navigate to project directory
 cd $PROJECT_BASE_PATH
