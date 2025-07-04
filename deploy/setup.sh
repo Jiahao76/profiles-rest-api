@@ -11,9 +11,8 @@ echo "Installing dependencies..."
 apt-get update
 apt-get install -y \
     python3-dev \
-    python3-venv \
+    python3.12-venv \
     python3-pip \
-    python3-distutils \
     sqlite3 \
     supervisor \
     nginx \
